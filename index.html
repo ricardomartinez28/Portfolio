@@ -9,43 +9,64 @@
 
     <link rel="stylesheet" href="reset.css">
     <link href="https://fonts.googleapis.com/css?family=Cinzel&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet"><link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 
 </head>
 
 <body>
-    <nav>
-        <div class="links">
-                <a href="http://www.linkedin.com/in/ricardo-marting">
-                        <img src="iconos/linkedin.svg" alt="icono linkedin">
-                        
-                    </a>
-                    <a href="https://github.com/ricardomartinez28">
-                        <img src="iconos/github.svg" alt="icono github">
-                        
-                    </a>
-                   
-                <a href="https://medium.com/@ricardomartinezing1">
-                    <img src="iconos/medium.svg" alt="icono medium">
-                    
-                </a>
-                <p>About me</p>
-        </div>
-    </nav>
+
 
     <header>
-        <div class="cabecera">
+
+        <nav>
+            <div class="nav-container">
                 <p class="rlogo">R</p>
-                <p class="nombre">Ricardo Martínez</p>
-                <p class="descripcion">Description</p>
+                <ul class="nav-links">
+                    <li>
+                        <a href="http://www.linkedin.com/in/ricardo-marting">
+                            <img class="imgs" src="iconos/linkedin.svg" alt="icono linkedin">
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ricardomartinez28">
+                            <img class="imgs" src="iconos/github.svg" alt="icono github">
+
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://medium.com/@ricardomartinezing1">
+                            <img class="imgs" src="iconos/medium.svg" alt="icono medium">
+
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- <div class="nav-container">
+      <img id="logo" src="http://rebobinart.com/wp-content/uploads/2016/04/red-bull-logo.jpg" alt="page-logo">
+      <ul class="nav-links">
+        <li><a href="#">Projects</a></li>
+        <li><a href="#">About me</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>-->
+            <!--<ul>
+                
+            </ul>-->
+        </nav>
+
+
+        <div class="cabecera">
             <div class="headmural">
                 <p class="solutionexplorer1">SOLUTION</p>
-                <img src="img/europabien.jpg">
+                <img src="img/europabien.jpg" title="Europa, una luna de jupiter">
                 <p class="solutionexplorer2">EXPLORER</p>
             </div>
-            
-            
+
+
 
         </div>
 
@@ -93,8 +114,8 @@
                 </div>
 
 
-                <h2>User experience designer</h2>
-                <p>Texto descriptivo de UX </p>
+                <h2 class="tituloskills"><span style="color: #FF453A">U</span>ser experience designer</h2>
+                <p>Designing meaningful experiences for the users </p>
                 <link rel="stylesheet" href="style.css">
             </div>
 
@@ -124,8 +145,8 @@
                     </svg>
                 </div>
 
-                <h2>User interface designer</h2>
-                <p>Texto descriptivo UI</p>
+                <h2 class="tituloskills"><span style="color: #0A84FF">U</span>ser interface designer</h2>
+                <p>Design is not how it looks design is how it works</p>
             </div>
 
             <div class="ordenSkills">
@@ -159,8 +180,8 @@
                 </div>
 
 
-                <h2>Android developer</h2>
-                <p>Texto descriptivo de Android development</p>
+                <h2 class="tituloskills"><span style="color: #32D74B">A</span>ndroid developer</h2>
+                <p>Creating new applications for the new android world</p>
             </div>
 
         </div>
@@ -171,66 +192,38 @@
 
     <section>
 
-        
+
 
         <p class="titleSkills">Case Studies</p>
 
-        <div class="caseStudies proyectos">
-
-
-            <div>
-                <div>
-                    <p class="trabajoUxUi">UX/UI</p>
-                    <h3 class="titulotrabajos">Proyecto 1</h3>
-                    <p>info resumida sobre el proyecto</p>
-                    <p>View Case study</p>
-                </div>
-                <div>
-                    <!-- Aquí va la imagen del proyecto-->
-                    <img>
-                </div>
+        <div class="casestudies">
+            <div class="case">
+                    <a href="https://medium.com/@ricardomartinezing1/homie-save-money-with-home-issues-b2ab7857d2b1">
+                    <img class="imgscasestudies" src="img/Homie.jpeg" title="Europa, una luna de jupiter">
+                </a>
+               
             </div>
-            <div>
-                <div>
-                    <p class="trabajoAndroid">Android</p>
-                    <h3>Proyecto 2</h3>
-                    <p>Info resumida sobre el proyecto</p>
-                    <p>View case study</p>
-                </div>
-                <div>
-                    <!-- Aquí va la imagen del proyecto-->
-                    <img>
-                </div>
-
+            <div class="case2">
+                    <a href="https://medium.com/@ricardomartinezing1/sana-get-rid-of-sugar-2622e167591c">
+                    <img class="imgscasestudies" src="img/Sana.jpg" title="Europa, una luna de jupiter">
+                    </a>
             </div>
-            <div>
-                <div>
-                    <p class="trabajoUxUi">UX/UI</p>
-                    <h3 class="titulotrabajos">Proyecto 3</h3>
-                    <p>Info resumida sobre el proyecto</p>
-                    <p>View Case study</p>
-                </div>
-                <div>
-                    <!-- Aquí va la imagen del proyecto-->
-                    <img>
-                </div>
-            </div>
-            <div>
-                <div>
-                    <p class="trabajoUxUi">UX/UI</p>
-                    <h3 class="titulotrabajos">Proyecto 4</h3>
-                    <p>Info resumida sobre el proyecto</p>
-                    <p>View Case study</p>
-                </div>
-                <div>
-                    <!-- Aquí va la imagen del proyecto-->
-                    <img>
-                </div>
-            </div>
-
-
         </div>
 
+
+        <div class="casestudies2">
+                <div class="case3">
+                    <a href="https://medium.com/@ricardomartinezing1/huertify-acercar-la-huerta-a-vuestras-mesas-ba204be7bc24">
+                        <img class="imgscasestudies" src="img/nueva_pre (2).001.jpeg" title="Europa, una luna de jupiter">
+                    </a>
+                </div>
+                <div class="case4">
+                    <a href="https://medium.com/@ricardomartinezing1/case-study-youtube-learning-nueva-funcionalidad-de-youtube-559236a8fa22">
+                        <img class="imgscasestudies" src="img/Youtube/Youtube.001.jpeg  " title="Europa, una luna de jupiter">
+                    </a>
+                    
+                </div>
+            </div>
 
     </section>
 

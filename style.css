@@ -48,13 +48,13 @@ header img{
 
 
 
-.cabecera{
-    margin-top: 2%;
-   display: flex;
-   flex-flow: column;
-   justify-content: center;
-   align-items: center;
-   margin-bottom: 4%;
+.hello{
+    
+    padding: 2%;
+    padding-left:4%; 
+    font-size: 4em;
+    font-family:'Anurati-regular';
+    
 }
 
 
@@ -136,7 +136,9 @@ text-align: center;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top:3%; 
+    margin-top:10%; 
+
+   margin-bottom: 4%;
     
 }
 .nombre{
@@ -144,16 +146,112 @@ text-align: center;
     margin-top: 2%;
     font-size: 2em;
 }
-.rlogo{
-    font-family:'Anurati-regular';
-    font-size: 7em;
-}
-.links{
 
+
+.tituloskills{
+    font-size: 1.6em;
+    margin-bottom: 5%;
+}
+nav {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background-color: black;
+  }
+
+  .nav-container {
+    width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    margin-top: 2%;
-    margin-left:70%; 
-    margin-right:6%;
+    align-items: center;
+  }
+
+  .nav-links {
+    display: flex;
+    list-style-type: none;
+    width: 40%;
+    justify-content: space-around;
+  }
+  .imgs{
+      width: 20px;
+      height: 20px;
+  }
+
+.rlogo{
+    font-size: 3em;
+    font-family:'Anurati-regular'; 
+} 
+
+.casestudies{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    margin-top: 40px;
+    
+}
+.case{
+    height: 400px;
+    width: 50%;
+    margin: 10px;
+    overflow: hidden;
+}
+.case img{
+    transition: transform .5s ease;
+}
+.case:hover img{
+    transform: scale(1.5);
+}
+.case2{
+    height: 400px;
+    width: 50%;
+    margin: 10px;
+    overflow: hidden;
+}
+.case2 img{
+    transition: transform .5s ease;
+}
+.case2:hover img{
+    transform: scale(1.5);
+}
+.case3{
+    height: 400px;
+    width: 50%;
+    margin: 10px;
+    overflow: hidden;
+
+}
+.case3 img{
+    transition: transform .5s ease;
+}
+.case3:hover img{
+    transform: scale(1.5);
+}
+.case4{
+    height: 400px;
+    width: 50%;
+    margin: 10px;
+    overflow: hidden;
+}
+.case4 img{
+    transition: transform .5s ease;
+}
+.case4:hover img{
+    transform: scale(1.5);
+}
+
+.imgscasestudies{
+    width: 100%;
+  height: 400px;
+  object-fit: cover;
+}
+
+.casestudies2{
+    height: 100%;
+    width: 100%;
+    display: flex;
+   margin-top: 0px;
     
 }
